@@ -1,0 +1,75 @@
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #dfe4e4;
+}
+.footer_logo img{
+    width: calc(100%-80%);
+    margin-bottom: 5px;
+}
+.footer_logo h5{
+    font-weight: 600;
+    font-style: 1rem;
+    margin-bottom: 15px;
+}
+.footer_logo p{
+    font-size: .9rem;
+    color:#333;
+    line-height: 28px;
+    
+}
+.delivery_time-item{
+    background: transparent;
+}
+.delivery_time-item span{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+}
+.delivery_time-item p{
+    color:#212245
+}
+.footer_title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #212245;
+}
+.newslatter input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.newslatter{
+    padding: 5px;
+    border: 1px solid #212245;
+    border-radius: 2px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.newslatter input:focus{
+    outline: none;
+}
+.newslatter input::placeholder{
+    color: #212245;
+}
+.newslatter span{
+    background: #212245;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.newslatter span i{
+    color: #fff;
+}
+.social_links span i{
+    padding: 5px;
+    background: #212245;
+    color: #fff;
+    justify-self: center;
+    border-radius: 50%;
+}
+.copyright_text {
+    font-size: 1rem;
+    color:#000
+}

@@ -1,0 +1,30 @@
+.cart_item-info img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+.cart_product-title{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.cart_price{
+    font-size: .9rem;
+}
+.cart_price span{
+    font-size: .9rem;
+    font-weight: 700;
+    color:red
+}
+.incr_dec-btn{
+    background: orange;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.inc_btn ,.dec_btn ,.dlt_btn{
+    font-weight: 600;
+    cursor: pointer;
+}
+.cart_item{
+    padding-bottom: 30px;
+    border-bottom: 1px solid pink;
+}
